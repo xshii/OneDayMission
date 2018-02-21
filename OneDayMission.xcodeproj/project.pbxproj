@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		ABB2388F203D926D00B6349D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB2388E203D926D00B6349D /* AppDelegate.swift */; };
-		ABB23891203D926D00B6349D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB23890203D926D00B6349D /* ViewController.swift */; };
+		ABB23891203D926D00B6349D /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB23890203D926D00B6349D /* EditViewController.swift */; };
 		ABB23894203D926D00B6349D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB23892203D926D00B6349D /* Main.storyboard */; };
 		ABB23896203D926F00B6349D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB23895203D926F00B6349D /* Assets.xcassets */; };
 		ABB23899203D926F00B6349D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB23897203D926F00B6349D /* LaunchScreen.storyboard */; };
 		ABB238A4203D926F00B6349D /* OneDayMissionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB238A3203D926F00B6349D /* OneDayMissionTests.swift */; };
+		ABB238AF203D99D300B6349D /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB238AE203D99D300B6349D /* Mission.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +29,7 @@
 /* Begin PBXFileReference section */
 		ABB2388B203D926D00B6349D /* OneDayMission.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneDayMission.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABB2388E203D926D00B6349D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ABB23890203D926D00B6349D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABB23890203D926D00B6349D /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
 		ABB23893203D926D00B6349D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABB23895203D926F00B6349D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABB23898203D926F00B6349D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +37,7 @@
 		ABB2389F203D926F00B6349D /* OneDayMissionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneDayMissionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABB238A3203D926F00B6349D /* OneDayMissionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneDayMissionTests.swift; sourceTree = "<group>"; };
 		ABB238A5203D926F00B6349D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABB238AE203D99D300B6349D /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		ABB23882203D926D00B6349D = {
 			isa = PBXGroup;
 			children = (
+				ABB238AE203D99D300B6349D /* Mission.swift */,
 				ABB2388D203D926D00B6349D /* OneDayMission */,
 				ABB238A2203D926F00B6349D /* OneDayMissionTests */,
 				ABB2388C203D926D00B6349D /* Products */,
@@ -78,7 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				ABB2388E203D926D00B6349D /* AppDelegate.swift */,
-				ABB23890203D926D00B6349D /* ViewController.swift */,
+				ABB23890203D926D00B6349D /* EditViewController.swift */,
 				ABB23892203D926D00B6349D /* Main.storyboard */,
 				ABB23895203D926F00B6349D /* Assets.xcassets */,
 				ABB23897203D926F00B6349D /* LaunchScreen.storyboard */,
@@ -197,7 +200,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABB23891203D926D00B6349D /* ViewController.swift in Sources */,
+				ABB238AF203D99D300B6349D /* Mission.swift in Sources */,
+				ABB23891203D926D00B6349D /* EditViewController.swift in Sources */,
 				ABB2388F203D926D00B6349D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
